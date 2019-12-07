@@ -1,0 +1,20 @@
+{
+  "name": "storybook-error-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schneidmaster/storybook-error-demo.git"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.5",
+    "@storybook/addon-docs": "^5.2.8",
+    "@storybook/react": "^5.2.8",
+    "babel-loader": "^8.0.6",
+    "react": "^16.12.0"
+  }
+}
